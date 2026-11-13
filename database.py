@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import os
 
 # アプリケーションとデータベースの橋渡し
-
 # .envファイルから環境変数を読み込む
 load_dotenv()
 
