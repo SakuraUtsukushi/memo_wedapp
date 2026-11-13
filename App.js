@@ -51,12 +51,12 @@ function App() {
         setMemos([...memos, memo]);
         setTitle("");
         setContent("");
-        setStatus(""); // フォームの状態はリセット
+        setStatus("");  // フォームの状態はリセット
       })
       .catch(err => console.error("追加エラー:", err));
   };
 
-// 編集開始
+  // 編集開始
   const startEdit = (memo) => {
     setEditingId(memo.id);
     setEditTitle(memo.title);
