@@ -41,7 +41,7 @@ No | 物理名　　　| 論理名　　| データ型　 | 長さ | NOT NULL | 
 1. | id         | MEMO_ID  | INTEGER   | -    | NOT NULL |
 2. | title      | タイトル　| STRING    | 100  | NOT NULL |
 3. | content    | 内容　　　| STRING    | 255  |          |
-4. | status     | 区分　　　| STRING    | 100  |          | 未完了
+4. | status     | 区分　　　| STRING    | 50   |          | 未完了
 5. | created_at | 作成日　　| TIMESTAMP |      |          |
 6. | updated_at | 更新日　　| TIMESTAMP |      |          |
 ```
